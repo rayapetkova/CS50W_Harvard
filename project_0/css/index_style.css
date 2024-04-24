@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #202124;
+    font-family: 'Arial';
+    flex-direction: column;
+}
+
+
+.google-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2em;
+    display: flex;
+    gap: 1.5em;
+    text-align: right;
+}
+
+.google-links a {
+    color: rgb(204, 147, 147);
+}
+
+.google-links a:hover {
+    color: rgb(190, 156, 156);
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+
+form {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 2.2em;
+}
+
+form input[type="text"] {
+    background-color: transparent;
+    outline: none;
+    border: solid 1px #5b5e63;
+    border-radius: 3em;
+    height: 3.3em;
+    padding-left: 1.2em;
+}
+
+form div.submit-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+form input[type="submit"] {
+    width: 20%;
+    align-self: center;
+    outline: none;
+    border: none;
+    background-color: #303134;
+    height: 3em;
+    border-radius: 0.2em;
+    font-family: inherit;
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4a4b4f;
+    cursor: pointer;
+}
