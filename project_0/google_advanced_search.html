@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="css/google_advanced_search_style.css">
+    </head>
+    <body>
+        <section class="google-links">
+            <a href="google_image_search.html">Google Image Search</a>
+            <a href="index.html">Google Search</a>
+        </section>
+
+        <h1>Google Advanced Search</h1>
+        <div class="labels-with-inputs">
+            <section class="all-labels">
+                <label for="as_q">all these words:</label>
+                <label for="as_epq">this exact word or phrase:</label>
+                <label for="as_oq">any of these words:</label>
+                <label for="as_eq">none of these words:</label>
+            </section>
+            <form action="https://www.google.com/search">   
+                <input type="text" name="as_q" id="as_q">
+                <input type="text" name="as_epq" id="as_epq">
+                <input type="text" name="as_oq" id="as_oq">
+                <input type="text" name="as_eq" id="as_eq">
+                
+                <input type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>
