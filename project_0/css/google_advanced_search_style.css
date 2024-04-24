@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(53 53 53);
+    font-family: 'Arial';
+    flex-direction: column;
+}
+
+
+.google-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2em;
+    display: flex;
+    gap: 1.5em;
+    text-align: right;
+}
+
+.google-links a {
+    color: rgb(204, 147, 147);
+}
+
+.google-links a:hover {
+    color: rgb(190, 156, 156);
+}
+
+
+h1 {
+    margin-left: 1em;
+    color: #9d9d9d;
+}
+
+
+div.labels-with-inputs {
+    display: flex;
+    margin: 2em;
+    gap: 2em;
+}
+
+div section.all-labels {
+    display: flex;
+    gap: 1.1em;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+div section.all-labels label {
+    color: #969b85;
+}
+
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 1em;
+    align-items: self-start;
+}
+
+form input[type="text"] {
+    font-size: 20px;
+    width: 100%;
+    background-color: transparent;
+    border: solid 2px #60615d;
+    color: white;
+}
+
+form input[type="submit"] {
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #8ab4f8;
+    height: 30px;
+    border-radius: 3px;
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a5c5f9;
+    cursor: pointer;
+}
