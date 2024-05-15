@@ -34,3 +34,4 @@ def save_entry(request, title):
     util.save_entry(title, content)
 
     return redirect('entry_info', title=title)
+    
