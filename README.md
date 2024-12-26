@@ -1,2 +1,3 @@
 # CS50W_Harvard
-Here, I will be uploading CS50W's projects
+
+All my projects from the CS50’s Web Programming with Python and JavaScript course in HarvardX
